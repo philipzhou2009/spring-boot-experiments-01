@@ -39,6 +39,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
     </dependencies>
 
     <build>
@@ -54,7 +59,7 @@
                     <dotGitDirectory>${project.basedir}/.git</dotGitDirectory>
                     <generateGitPropertiesFile>true</generateGitPropertiesFile>
                     <runOnlyOnce>true</runOnlyOnce>
-                    <dateFormatTimeZone>${user.timezone}</dateFormatTimeZone>
+                    <!--<dateFormatTimeZone>${user.timezone}</dateFormatTimeZone>-->
                 </configuration>
             </plugin>
         </plugins>
