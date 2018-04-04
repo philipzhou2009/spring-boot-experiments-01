@@ -18,8 +18,8 @@ public class GreetingService {
         return "World";
     }
 
-    private String getPart3() {
-        return "xxx";
+    private String getPart3(int i, String s) {
+        return i + s;
     }
 
 }
